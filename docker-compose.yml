@@ -2,9 +2,9 @@ version: '3'
 services:
   webserver:
     build: ./G_Backend
+    ports:
+      - "8080:8080"
     command: python manage.py runserver 0.0.0.0:8080
-    expose:
-      - "8080"
 
   admin:
     build: ./G_Admin
