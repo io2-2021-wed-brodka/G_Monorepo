@@ -1,3 +1,4 @@
+version: '3'
 services:
   webserver:
     build: ./G_Backend
@@ -11,7 +12,7 @@ services:
       - "3000:3000"
     command: npm run start
 
-  user-tech:
+  user_tech:
     build: ./G_User-Tech
     ports:
       - "3001:3000"
