@@ -1,0 +1,12 @@
+[submodule "G_Admin"]
+	path = G_Admin
+	url = ./G_Admin
+[submodule "G_Backend"]
+	path = G_Backend
+	url = ./G_Backend
+[submodule "G_User-Tech"]
+	path = G_User-Tech
+	url = ./G_User-Tech
+[submodule "G_Selenium"]
+	path = G_Selenium
+	url = ./G_Selenium
