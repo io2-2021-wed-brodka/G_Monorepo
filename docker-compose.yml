@@ -1,5 +1,5 @@
 services:
-  web:
+  webserver:
     build: ./G_Backend
     command: python manage.py runserver 0.0.0.0:8080
     expose:
